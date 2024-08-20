@@ -10,7 +10,12 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    ignores: ["node_modules", "webpack.config.js"],
+    ignores: [
+      "node_modules",
+      "webpack.config.js",
+      "jest.config.js",
+      "babel.config.js",
+    ],
   },
   {
     settings: {
