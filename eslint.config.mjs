@@ -18,14 +18,6 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    ignores: [
-      "node_modules",
-      "webpack.config.js",
-      "jest.config.js",
-      "babel.config.js",
-    ],
-  },
-  {
     settings: {
       react: {
         version: "detect", // React version. "detect" automatically picks the version you have installed.
